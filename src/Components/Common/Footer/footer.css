@@ -1,0 +1,86 @@
+.footer {
+  background-color: #004360;
+  width: 100%;
+  color: rgb(209, 209, 209);
+  padding: 4%;
+  padding-bottom: 0px;
+  font-weight: 550;
+}
+
+.footerContents {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contacts label {
+  font-size: 21px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+.contacts p {
+  margin-top: 15px;
+}
+
+.usefulLinkd label {
+  font-size: 19px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+.usefulLinkd p {
+  margin-top: 15px;
+}
+
+.gallery label {
+  font-size: 21px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+.gallery p {
+  margin-top: 15px;
+}
+
+.customerSupport label {
+  font-size: 19px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+.customerSupport p {
+  margin-top: 15px;
+}
+.copyRight {
+  margin-top: 20px;
+}
+.footerSocialMedias {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  justify-content: center;
+  padding: 3%;
+}
+.footerSocialMedias p {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.1vw;
+}
+.footerSocialMedias ul {
+  display: flex;
+  font-size: 1.5vw;
+  justify-content: right;
+}
+.footerSocialMedias ul li {
+  padding: 1%;
+}
+.footerSocialMedias ul li:hover {
+  color: #ff8f12;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 500px) {
+  .footerContents {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+    justify-content: center;
+  }
+}

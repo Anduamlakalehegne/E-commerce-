@@ -1,0 +1,150 @@
+/* * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   width: 100%;
+   
+} */
+/* body{
+    background: rgba(0, 0, 0, 0.7)url("../../assets/wegagen2.jpg") no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+} */
+
+.body {
+  background: rgba(0, 0, 0, 0.7) url("./assets/wegagen2.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+:root {
+  --blue: #2a2185;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+}
+
+.signin {
+  background-color: #fff;
+  width: 30%;
+  margin: auto;
+  position: fixed;
+  margin-top: 4%;
+  margin-left: 35%;
+  margin-right: 10%;
+  border-radius: 7px;
+}
+
+.right_login {
+  padding: 25px;
+  padding-top: 20px;
+}
+
+.loginHeader {
+  height: 180px;
+  background: rgba(0, 0, 0, 0.8) url("./assets/wogagen_Bank2.png") no-repeat
+    center;
+  background-color: white;
+  background-size: 40%;
+}
+
+.signForm {
+  display: grid;
+}
+
+.signForm label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  color: rgb(85, 85, 85);
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.signForm input {
+  border: none;
+  outline: none;
+  height: 45px;
+  background-color: rgb(238, 238, 238);
+  padding: 0.6rem 1rem;
+  font-size: 15px;
+  transition: 0.3s;
+  border: solid 1px #d4d4d4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.signForm input:focus {
+  box-shadow: 0px 0px 2px 1px rgba(21, 113, 146, 0.4);
+  border: 1px solid rgba(21, 113, 146, 0.4);
+}
+
+.signForm p {
+  color: rgb(85, 85, 85);
+  margin-top: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signForm button {
+  background-color: #e24f00;
+  color: #ffffff;
+  border: none;
+  padding: 1.7%;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.signForm button:hover {
+  transform: scale(1.07);
+  background-color: #be4403;
+}
+.validateText {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+}
+
+/* ------------------- for responsivness ------------------- */
+
+@media screen and (max-width: 1000px) {
+  .signin {
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .signin {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .signin {
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .signin {
+    width: 400px;
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .signin {
+    width: 380px;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .signin {
+    width: 350px;
+    margin-left: 5%;
+  }
+}

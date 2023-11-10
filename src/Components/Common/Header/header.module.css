@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid rgb(145, 145, 145);
+  padding: 15px 50px 0px 30px;
+  font-size: 1.3vw;
+  position: sticky;
+  color: #000000;
+  position: sticky;
+  top: -1px;
+  z-index: 5;
+  background-color: #004360;
+}
+
+.container p {
+  display: flex;
+  align-items: center;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.container ul li {
+  display: flex;
+  padding: 3px 10px;
+  align-items: center;
+  color: #ffffff;
+  transition: 0.7s;
+  margin: 0px 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container ul li:hover {
+  background-color: rgb(28, 28, 28);
+  color: #ffffff;
+}
